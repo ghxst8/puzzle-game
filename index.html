@@ -1,43 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puzzle</title>
-    <link rel="stylesheet" href="puzzle.css">
-    <script src="puzzle.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-    <var id="colorone">red</var>
-    <img id="one" src="./red.png">
-    <button onclick="countClick1()">Click me</button>
-    <h1></h1>
-    <var id="colortwo">green</var>
-    <img id="two" src="./green.png">
-    <button onclick="countClick2()">Click me</button>
-    <h1></h1>
-    <var id="colorthree">red</var>
-    <img id="three" src="./red.png">
-    <button onclick="countClick3()">Click me</button>
-    <h1></h1>
-    <var id="colorfour">blue</var>
-    <img id="four" src="./blue.png">
-    <button onclick="countClick4()">Click me</button>
-    <h1></h1>
-    <var id="colorfive">red</var>
-    <img id="five" src="./red.png">
-    <button onclick="countClick5()">Click me</button>
-    <h1></h1>
-    <var id="colorsix">green</var>
-    <img id="six" src="./green.png">
-    <button onclick="countClick6()">Click me</button>
-    <h1></h1>
-    <var id="colorseven">blue</var>
-    <img id="seven" src="./blue.png">
-    <button onclick="countClick7()">Click me</button>
 
-    <h1>Turns: <var id="turns">0</var></span></h1>  
+    <button id="buttonone" onclick="countClick1(false)"></button>
+    <h1></h1>
+    <button id="buttontwo" onclick="countClick2(false)"></button>
+    <h1></h1>
+    <button id="buttonthree" onclick="countClick3(false)"></button>
+    <h1></h1>
+    <button id="buttonfour" onclick="countClick4(false)"></button>
+    <h1></h1>
+    <button id="buttonfive" onclick="countClick5(false)"></button>
+    <h1></h1>
+    <button id="buttonsix" onclick="countClick6(false)"></button>
+    <h1></h1>
+    <button id="buttonseven" onclick="countClick7(false)"></button>
     
-    
+    <h1 id="turnL">Turns: </h1>  
+
+
+
+    <script src="puzzle.js"></script>
 </body>
 </html>
